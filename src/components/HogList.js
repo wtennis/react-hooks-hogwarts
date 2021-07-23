@@ -1,6 +1,9 @@
 import HogCard from "./HogCard";
 
+
 function Hoglist({hogs}) {
+    
+
 
     const hogList = hogs.map((hogObj) => {
         return (
