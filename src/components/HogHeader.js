@@ -1,5 +1,5 @@
 
-function HogTile({hog}) {
+function HogHeader({hog}) {
     return (
         <>
         <h3>{hog.name}</h3>
@@ -8,4 +8,4 @@ function HogTile({hog}) {
     )
 }
 
-export default HogTile;
+export default HogHeader;
